@@ -16,12 +16,12 @@ function App() {
   
     return (
       <BrowserRouter>
-      <div>
-        <Header/>
-              <KanbanRoutes tasks={tasks} setTasks={setTasks} />
-              <Footer tasks={tasks} />
-      </div>
-      </BrowserRouter>
+        <div>
+          <Header/>
+          <KanbanRoutes tasks={tasks} setTasks={setTasks} />
+          <Footer tasks={tasks} />
+        </div>
+      </BrowserRouter >
     );
 }
 const root = createRoot(document.getElementById('root'));
